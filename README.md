@@ -78,4 +78,4 @@ web学习过程中的一些总结、心得体会。欢迎关注公众号。
 - 事件订阅发布
 - 图形化（canvas、svg、echarts、d3.js）
 
-## [开发中遇到的问题](https://github.com/1985zrd/web-learning/blob/master/problem/problem.md)
+## 开发中遇到的问题 [详情](https://github.com/1985zrd/web-learning/blob/master/problem/problem.md)
