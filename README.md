@@ -71,11 +71,11 @@ web学习过程中的一些总结、心得体会。欢迎关注公众号。
 ## webpack
 
 ## 其他
-1. jquery
-2. zepot
-3. 设计模式
-4. axios.js
-5. 事件订阅发布
-6. 图形化（canvas、svg、echarts、d3.js）
+- jquery
+- zepot
+- 设计模式
+- axios.js
+- 事件订阅发布
+- 图形化（canvas、svg、echarts、d3.js）
 
-## [开发中遇到的问题](https://www.baidu.com)
+## [开发中遇到的问题](https://github.com/1985zrd/web-learning/blob/master/problem/problem.md)
