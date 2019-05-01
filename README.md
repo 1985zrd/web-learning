@@ -45,8 +45,9 @@ web学习过程中的一些总结、心得体会。欢迎关注公众号。
 24. 错误处理
 25. 内存
 26. 缓存
-27. 性能优化
-28. 安全（xss、csrf）
+27. 性能优化（CDN、首屏响应速度）
+28. 协议（协议、tcp、http）
+29. 安全（xss、csrf）
 
 ## 正则
 
@@ -70,12 +71,24 @@ web学习过程中的一些总结、心得体会。欢迎关注公众号。
 
 ## webpack
 
+## 微信小程序
+
+## flutter
+
 ## 其他
 - jquery
 - zepot
 - 设计模式
+- 函数式编程（underscore）
 - axios.js
+- flyio
 - 事件订阅发布
 - 图形化（canvas、svg、echarts、d3.js）
+- 常用markDown语法
+- 常用git命令
+- better-scroll
+- 代码检查eslint
 
 ## [开发中遇到的问题](https://github.com/1985zrd/web-learning/blob/master/problem/problem.md)
+
+## node.js
