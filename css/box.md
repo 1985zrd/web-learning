@@ -6,7 +6,7 @@
 - 控制盒模型的属性
 
 #### 文档类型声明（doctype）
-在html中，我们会看到"<!DOCTYPE html>"，这个声明是告诉浏览器在渲染文档时使用标准模式（最佳的相关规范）进行渲染。
+在html中，我们会看到`"<!DOCTYPE html>"`，这个声明是告诉浏览器在渲染文档时使用标准模式（最佳的相关规范）进行渲染。
 浏览器在渲染文档的时候，提供了2种方式，一种是**标准模式（strict mode）**，一种是**怪异模式（quirks mode）**。[（DOCTYP详情）](http://www.w3school.com.cn/tags/tag_doctype.asp)
 
 #### 标准模式和怪异模式区别
