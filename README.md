@@ -3,7 +3,7 @@ web学习过程中的一些总结、心得体会。欢迎关注公众号。
 -------
 
 ## css
-- [盒模型](https://www.baidu.com '盒模型')
+- [盒模型](https://github.com/1985zrd/web-learning/blob/master/css/box.md)
 - BFC（Block-Formatting-Contxet）
 - potion
 - css3动画
