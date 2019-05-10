@@ -26,8 +26,10 @@
 /* 标准模型 */
 box-sizing:content-box;
 
- /*IE模型*/
+ /* IE模型 */
 box-sizing:border-box;
+
+/* box-sizing是css3新增属性，如有需要则应加前缀属性（-webkit-, -ms- 或 -moz-） */
 ```
 
 #### 控制盒模型的属性
