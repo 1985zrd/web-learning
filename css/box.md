@@ -13,9 +13,9 @@
 #### 标准模式和怪异模式区别
 1. width
    - 在标准模式中：width是内容（content）宽度，元素真正的宽度是内容宽width、外边距margin、内边距padding、边框border的和，即元素宽度 = width + padding + border + margin。
-   ![标准模式](https://github.com/1985zrd/web-learning/blob/master/imgs/strict.jpg)
+   ![标准模式](./imgs/strict.jpg)
    - 在怪异模式中：width则是元素的实际宽度，元素宽度 = width(包含padding + border) + margin。
-   ![怪异模式](https://github.com/1985zrd/web-learning/blob/master/imgs/quirks.jpg)
+   ![怪异模式](./imgs/quirks.jpg)
 2. 标准模式中，给span等行内元素设置width和height都不会生效，而在怪异模式下，却会生效。
 3. CSS中，对于font的属性都是可以继承的。怪异模式下，对于table元素，字体的某些元素将不会从body等其他封装元素继承中的得到，特别是font-size属性。
 4. 对于inline元素和table-cell元素，标准模式下vertical-align属性默认取值是baseline；在怪异模式下，table单元格中的图片的vertical-align属性默认取值是bottom。因此在图片底部会有及像素的空间。
