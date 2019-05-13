@@ -3,7 +3,7 @@ web学习过程中的一些总结、心得体会。欢迎关注公众号。
 -------
 
 ## css
-- [盒模型](https://github.com/1985zrd/web-learning/blob/master/css/box.md)
+- [盒模型](./css/box.md '盒模型')
 - BFC（Block-Formatting-Contxet）
 - potion
 - css3动画
@@ -20,7 +20,7 @@ web学习过程中的一些总结、心得体会。欢迎关注公众号。
 - meta标签
 
 ## javascript基础
-- Dom操作
+- [Dom操作](./javascript-base/dom.md 'Dom操作')
 - 作用域
 - 闭包
 - js预编译

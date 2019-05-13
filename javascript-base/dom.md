@@ -8,11 +8,11 @@
 
 ### DOM树的节点
 1. 节点类型
-属性节点 | 属性nodeType值
--- |: --:
-元素节点 | 1
-属性节点 | 2
-文本节点 | 3
-注释节点（comment） | 8
-document | 9
-documentFragment | 11
+属性节点|属性nodeType值
+--|:--:
+元素节点|1
+属性节点|2
+文本节点|3
+注释节点（comment）|8
+document|9
+documentFragment|11
