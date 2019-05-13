@@ -102,5 +102,5 @@ screenY  // 鼠标相对于显示器屏幕左上角y轴的坐标。
 
 offsetX  // 鼠标相对于事件源左上角X轴的坐标。
 offsetY  // 鼠标相对于事件源左上角Y轴的坐标。
-![event-target](./imgs/event-target.jpg 'event-target')
 ```
+![event-target](./imgs/event-target.jpg 'event-target')
