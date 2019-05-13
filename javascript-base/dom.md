@@ -90,7 +90,7 @@ element.offsetTop/offsetLeft  // 返回元素的上外缘距离最近采用定�
 element.scrollLeft/scrollTop  // 此属性可以获取或者设置对象的最顶部到对象在当前窗口显示的范围内的顶边的距离，也就是元素滚动条被向下拉动的距离。返回值是一个整数，单位是像素。此属性是可读写的。
 // document.body.scrollTop || document.documentElement.scrollTop
 
-当鼠标事件发生时（不管是onclick，还是omousemove，onmouseover等）
+**当鼠标事件发生时（不管是onclick，还是omousemove，onmouseover等）**
 clientX  // 鼠标相对于浏览器（这里说的是浏览器的有效区域）左上角x轴的坐标。不随滚动条滚动而改变。
 clientY  // 鼠标相对于浏览器（这里说的是浏览器的有效区域）左上角y轴的坐标。不随滚动条滚动而改变。
 
