@@ -13,7 +13,7 @@ web学习过程中的一些总结、心得体会。欢迎关注公众号。
 - em、rem、px
 
 ## html
-- html语意化
+- [html语意化](./html/semantic-html.md 'html语意化')
 - html5新增标签
 - script异步加载
 - 页面渲染流程

@@ -73,6 +73,7 @@ nextSibling|返回节点的下一个兄弟节点。如果没有下一个兄弟�
 previousSibling|返回节点的上一个兄弟节点。同上。
 parentNode|返回节点的父节点。document.parentNode 返回 null，其他的情况下都将返回一个元素节点，因为只有元素节点拥有子节点，除了 document 外任何节点都拥有父节点。只读。
 innerHTML|返回元素的所有文本，包括html代码
+attributes|获取当前节点的所有属性节点。 返回数组格式
 innerText|返回当前元素的自身及子代所有文本值，只是文本内容，不包括html代码
 style|获取/设置元素的样式
 
