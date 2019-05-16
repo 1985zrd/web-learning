@@ -8,14 +8,13 @@ web学习过程中的一些总结、心得体会。欢迎关注公众号。
 - potion
 - css3动画
 - 响应式网站开发
-- 几种常见布局
+- [几种常见布局]('./css/layout.md' '几种常见布局')
 - css预编译
 - em、rem、px
 
 ## html
-- [html语意化](./html/semantic-html.md 'html语意化')
-- html5新增标签
-- script异步加载
+- [html语意化、html5部分新增标签](./html/semantic-html.md 'html语意化')
+- defer、async、preload
 - 页面渲染流程
 - meta标签
 
