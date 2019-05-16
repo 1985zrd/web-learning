@@ -1,7 +1,8 @@
 # 常见的几种布局
 1. 页面不满一屏时footer在屏幕底部，超过一屏时，在页面底部
-![screen-bottom](./imgs/layout1.jpg 'screen-bottom')
-![page-bottom](./imgs/layout2.jpg 'page-bottom')
+
+![screen-bottom](./imgs/layout1.jpg 'screen-bottom') ![page-bottom](./imgs/layout2.jpg 'page-bottom')
+
 ```
 <style>
 	html, body {
