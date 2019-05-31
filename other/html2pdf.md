@@ -64,8 +64,9 @@ methods: {
 ```
 
 页面mounted的时候（不是我写的。。。），通过接口获取后端数据，在nextTick的时候，开始转html。这里给了个*setTimeout*1000ms，主要是因为chartjs图表渲染有个时间过度。
-调用html2canvas方法，传入一个DOM，返回promise对象。成功函数里返回canvas，就是传入的DOM生成的canvas。调用jsPDF或new jsPDF()，创建pdf对象，pdf的addImage方法添加图片，最后调用save方法保存pdf，会下载一个我们需要的pdf文件。
-这种方法对于需要转pdf的DOM元素过长的话，会造成部分DOM元素空白的问题，如下：
+调用html2canvas方法，传入一个DOM，返回promise对象。成功函数里返回canvas，就是传入的DOM生成的canvas。调用jsPDF或new jsPDF()，创建pdf对象，pdf的addImage方法添加图片，最后调用save方法保存pdf，会下载一个我们需要的pdf文件。没有问题，完全可以用。
+
+但是这种方法对于需要转pdf的DOM元素过长的话，会造成部分DOM元素*空白*的问题，如下：
 
 生成的pdf：
 ![生成的pdf](./imgs/fails-part.jpg '生成失败的pdf')
@@ -75,7 +76,7 @@ methods: {
 
 ### 为什么会造成这样的情况？
 
-> 我发现只要页面过长，生成的pdf总共10多页（具体数值没测试）以后，部分页面就会出现空白的情况。而页面在几页的时候，是不会出现空白页的。
+> 我发现只要页面过长，生成的pdf总共10多页（具体数值没测试）以后，部分页面就会出现空白的情况。而页面总共只有几页的时候，是不会出现空白页的。
 
 1. 我把生成的canvas，append到了body，发现生成的canvas就缺少了一部分，有一部分是空白的，和生成的pdf一样。那这样的话，应该就是html2canvas的问题。会不会是html2canvas没法生成长度太大的canvas？
 2. 我查询了一下canvas的长度限制（自己没去核实，如果有人知道，可以告诉我）：
