@@ -93,6 +93,7 @@ web学习过程中的一些总结、心得体会。欢迎关注公众号。
 ## 数据结构与算法
 
 ## 其他
+- [前端html转pdf](./other/html2pdf.md '前端html转pdf')
 - jquery
 - zepot
 - 设计模式
